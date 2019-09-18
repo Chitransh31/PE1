@@ -7,7 +7,7 @@ public class q5
         Scanner sc =new Scanner(System.in);
         int sum=0;
         int val=0;
-        
+
        for(int i=0;i<args.length;i++)
        {
 
@@ -26,21 +26,6 @@ public class q5
        }
        if(val ==0)
        System.out.println(sum);
-      /*  while(true)
-        {
-        
-        
-          if(sc.hasNextInt())
-        {
-             sum+=sc.nextInt();
-        }
-        else
-        {
-            //System.err.println("Not  integer");
-            break;
-        }
-
-       }*/
 
     }
 
